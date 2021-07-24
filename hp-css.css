@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.aa {
+    position: relative;
+    height: 10vh;
+    overflow: hidden;
+    min-height: 60px;
+}
+
+.pipp {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.qq {
+    display: none;
+}
+
+.aa .ani {
+    position: absolute;
+    color: aliceblue;
+    float: left;
+    top: 20%;
+    left: 10%;
+    animation-name: bulbul;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.pi {
+    display: none;
+}
+
+.aa .gg {
+    display: none;
+}
+
+@keyframes bulbul {
+    0% {
+        top: -100%;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        top: 20%:
+    }
+}
+
+.cc {
+    display: flex;
+    width: 90px;
+    height: 4vh;
+    padding-top: 20px;
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.aa .bb .cc:hover>a {
+    color: antiquewhite;
+    font-size: 110%;
+    border-bottom: 2px solid antiquewhite;
+}
+
+.op {
+    margin-top: 40vh;
+    text-align: justify;
+}
+
+.border-light h1,
+h3 {
+    color: aliceblue;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.border-light h3:hover {
+    transform: scale(.7);
+    color: gold;
+    cursor: pointer;
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+}
+
+.kaj .kaj1 .f1 img {
+    filter: brightness(.5);
+    width: 100%;
+    height: auto;
+    -webkit-filter: brightness(.5);
+}
+
+.kaj .kaj1 .f1 {
+    transform: scale(.8);
+    transition: 2s;
+    padding-right: 0px;
+    box-shadow: 2px 0 2px 2px gray;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+}
+
+.kaj .kaj1 .f1:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.kaj .kaj1 .f2 img {
+    filter: grayscale(50%);
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(50%);
+}
+
+.kaj .kaj1 .f2 {
+    transform: scale(.8);
+    transition: 2s;
+    padding-right: 0px;
+    box-shadow: 2px 0 2px 2px gray;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.kaj .kaj1 .f2:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.kaj .kaj1 .f3 img {
+    filter: sepia(60%);
+    width: 100%;
+    height: auto;
+    -webkit-filter: sepia(60%);
+}
+
+.kaj .kaj1 .f3 {
+    transform: scale(.8);
+    transition: 2s;
+    padding-right: 0px;
+    box-shadow: 2px 0 2px 2px gray;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+}
+
+.kaj .kaj1 .f3:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.kaj .kaj1 .f4 img {
+    filter: hue-rotate(90deg);
+    width: 100%;
+    height: auto;
+    -webkit-filter: hue-rotate(90deg);
+}
+
+.kaj .kaj1 .f4 {
+    transform: scale(.8);
+    transition: 2s;
+    padding-right: 0px;
+    box-shadow: 2px 0 2px 2px gray;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.kaj .kaj1 .f4:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.skill .sb0 {
+    color: aliceblue;
+}
+
+.skill .skill1 .sb1 {
+    height: 10vh;
+    background-color: rgb(115, 131, 145);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skill .skill1 .sb1 .sb2 {
+    height: 10vh;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(248, 248, 244);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: nul;
+    -webkit-animation: nul;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nul {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+.skill .sb00 {
+    color: aliceblue;
+}
+
+.skill .skill1 .sb11 {
+    height: 10vh;
+    background-color: rgb(115, 131, 145);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skill .skill1 .sb11 .sb22 {
+    height: 10vh;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(248, 248, 244);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: bul;
+    -webkit-animation: bul;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bul {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+.skill .sb000 {
+    color: aliceblue;
+}
+
+.skill .skill1 .sb111 {
+    height: 10vh;
+    background-color: rgb(115, 131, 145);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skill .skill1 .sb111 .sb222 {
+    height: 10vh;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(248, 248, 244);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: bul;
+    -webkit-animation: tul;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes tul {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 84%;
+    }
+}
+
+.skill .sb0000 {
+    color: aliceblue;
+}
+
+.skill .skill1 .sb1111 {
+    height: 10vh;
+    background-color: rgb(115, 131, 145);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skill .skill1 .sb1111 .sb2222 {
+    height: 10vh;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(248, 248, 244);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: kul;
+    -webkit-animation: kul;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kul {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+.row .edu .col-4 img {
+    height: auto;
+    width: 100%;
+}
+
+.row .edu .eer img {
+    height: auto;
+    width: 100%;
+}
+
+.row .edu .ru img {
+    height: auto;
+    width: 100%;
+}
+
+.fuck .edu {
+    background-color: rgb(115, 116, 101);
+}
+
+.border5 {
+    border-radius: 5px;
+    border: 5px solid lightgoldenrodyellow;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pad {
+    font-size: 25px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.pad:hover {
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(19, 10, 10);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

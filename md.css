@@ -1,0 +1,98 @@
+.pipp {
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 0vh;
+    background: navy;
+    height: 100vh;
+    width: 50%;
+    transition: 2s;
+    z-index: 7;
+}
+
+.pipp:target {
+    left: 0px;
+    opacity: 1;
+}
+
+.pipp .bb .cc {
+    list-style: none;
+    color: gold;
+    display: block;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.pp {
+    display: none;
+    color: aliceblue;
+}
+
+.kl .aa .qq .fas {
+    transform: scale(1.8);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 6%;
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+}
+
+.kl {
+    z-index: 4;
+}
+
+.aa {
+    position: relative;
+    height: 59px;
+    width: 100%;
+    min-height: 59px;
+    overflow: hidden;
+}
+
+.qq {
+    display: inline;
+}
+
+.pipp .koi .jh {
+    transform: scale(2);
+    color: blanchedalmond;
+    position: absolute;
+    right: 2px;
+    margin-right: 4px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+.aa .ani {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: bulbul;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bulbul {
+    0% {
+        top: -100%;
+    }
+    50% {
+        color: brown
+    }
+    100% {
+        top: 20%;
+    }
+}
